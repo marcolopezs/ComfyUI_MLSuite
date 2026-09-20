@@ -10,6 +10,9 @@ dist/
 .thumb_cache/
 *.local.json
 
+# Publish artifact created by `comfy node publish`
+node.zip
+
 # Editor / OS
 .vscode/
 .idea/

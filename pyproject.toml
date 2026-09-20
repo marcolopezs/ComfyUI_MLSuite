@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_mlsuite"
-description = "MLSuite: a collection of ComfyUI nodes — image loading with gallery browser, camera angle selector, clothing prompt (Jinja2) and image comparison."
-version = "0.1.0"
+description = "MLSuite: a growing collection of ComfyUI nodes. Starts with Image Loader — bring any image into your workflow from an upload, a URL, a built-in gallery browser, or automatic folder rotation."
+version = "0.1.1"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
 dependencies = [
