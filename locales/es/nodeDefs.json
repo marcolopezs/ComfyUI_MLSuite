@@ -1,0 +1,42 @@
+{
+  "MLSuite_ImageLoader": {
+    "display_name": "Cargador de Imagen",
+    "description": "Carga imágenes con un explorador de galería integrado, entrada por URL, subida, ruta manual y rotación automática por índice sobre una carpeta.",
+    "inputs": {
+      "image": {
+        "name": "imagen",
+        "tooltip": "Imagen subida a la carpeta input de ComfyUI."
+      },
+      "folder": {
+        "name": "carpeta",
+        "tooltip": "Carpeta estándar de ComfyUI: input, output o temp."
+      },
+      "start_index": {
+        "name": "índice_inicial",
+        "tooltip": "Índice desde el que empieza la rotación automática."
+      },
+      "sort_method": {
+        "name": "orden",
+        "tooltip": "Orden de las imágenes al rotar por índice."
+      },
+      "image_url": {
+        "name": "url_imagen",
+        "tooltip": "Descarga y usa una imagen directamente desde una URL."
+      },
+      "manual_path": {
+        "name": "ruta_manual",
+        "tooltip": "Ruta de carpeta directa (tiene prioridad sobre 'carpeta')."
+      },
+      "selected_image": {
+        "name": "imagen_seleccionada",
+        "tooltip": "Imagen elegida desde la galería."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "IMAGE",
+        "tooltip": "La imagen cargada."
+      }
+    }
+  }
+}

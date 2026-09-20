@@ -1,0 +1,17 @@
+[project]
+name = "comfyui_mlsuite"
+description = "MLSuite: a collection of ComfyUI nodes — image loading with gallery browser, camera angle selector, clothing prompt (Jinja2) and image comparison."
+version = "0.1.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "Pillow",
+]
+
+[project.urls]
+Repository = "https://github.com/marcolopezs/ComfyUI_MLSuite"
+
+[tool.comfy]
+PublisherId = "marcolopezs"
+DisplayName = "MLSuite"
+Icon = "https://raw.githubusercontent.com/marcolopezs/ComfyUI_MLSuite/main/assets/icon.png"

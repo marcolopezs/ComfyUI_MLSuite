@@ -1,0 +1,11 @@
+# Files kept in git but excluded from the ComfyUI Registry archive.
+# Syntax matches .gitignore. Layers on top of .gitignore (untracked files are
+# already excluded).
+
+# Editor / OS
+.vscode/
+.idea/
+
+# Generated caches (also in .gitignore, listed here for safety)
+.thumb_cache/
+__pycache__/
