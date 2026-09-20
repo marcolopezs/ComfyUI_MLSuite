@@ -1,5 +1,7 @@
 # ComfyUI_MLSuite
 
+**English** | [Español](README_ES.md)
+
 **MLSuite** is a collection of custom nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI), built for a smoother image workflow. It starts with a powerful **Image Loader** and will keep growing.
 
 > Interface language: **English** (primary). Spanish translations are included via `locales/`.
@@ -16,9 +18,8 @@ One node to bring any image into your workflow — from an **upload**, a **direc
 
 - 🖼️ **Four sources in one node** — upload, image URL, gallery pick, or automatic index rotation over a folder.
 - 🗂️ **Built-in gallery browser** — navigate folders with cover thumbnails, sort by name/date, adjust thumbnail size, preview on a large panel and select with a click (or double-click).
-- 👁️ **Consistent in-node preview** — the same native preview for every source, always fitting the node, with `width × height`.
+- 👁️ **Consistent in-node preview** — the same native preview for every source.
 - 🔁 **Dataset rotation** — leave it empty and it walks the folder recursively, returning the next image on each run.
-- 🔒 **Cross-platform & hardened** — case/Unicode-safe paths (Windows/macOS/Linux), URL download protected against `file://`/SSRF, and file serving restricted to a browsed allow-list.
 - 🌐 **Bilingual UI** — English by default, Spanish via `locales/`.
 
 ### Inputs
